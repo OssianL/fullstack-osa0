@@ -1,0 +1,9 @@
+käyttäjä->selain: käyttäjä kirjoittaa uuden muistiinpanon ja painaa talleta
+selain->palvelin: POST fullstack-exampleapp.herokuapp.com/new_note_spa
+selain->käyttäjä: uusi muistiinpano lisätään listalle
+note left of selain
+    uusi muistiinpano listätään heti listalle
+    odottamatta palvelimen vastausat
+end note
+palvelin->selain: status 201 created
+
